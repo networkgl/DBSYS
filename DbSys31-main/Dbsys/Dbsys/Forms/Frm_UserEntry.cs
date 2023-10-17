@@ -15,7 +15,7 @@ namespace Dbsys
     public partial class Frm_UserEntry : Form
     {
         UserRepository userRepo;
-        int? userSelectedId = null
+        int? userSelectedId = null;
         public Frm_UserEntry()
         {
             InitializeComponent();
